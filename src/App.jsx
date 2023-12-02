@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { MainCards, LayoutMain, MainFooter, NavMain } from './main-components/usefull-components'
 
-const ProgLink = "/programacion.html"
+const ProgLink = "programacion.html"
 
 function App() {
   const [count, setCount] = useState(0)
