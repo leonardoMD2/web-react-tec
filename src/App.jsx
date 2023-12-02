@@ -1,9 +1,7 @@
 import { useState } from 'react'
+import { MainCards, LayoutMain, MainFooter } from './main-components/usefull-components'
 
-
-import './css/App.css'
-import { MainCards, LayoutMain, MainFooter } from './usefull-components'
-
+const ProgLink = "./programacion.html"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,12 +10,8 @@ function App() {
     <main className='bg-slate-950 h-100 grid auto-rows-min container-lg'>
       
       <LayoutMain/>
-      <MainCards/>
+      <MainCards progLink={ProgLink}/>
       <MainFooter/>
-
-      
-      
-      <MainCards/>
 
    
 

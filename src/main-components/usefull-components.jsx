@@ -8,10 +8,19 @@ rounded-full
 text-base text-body-color
 font-medium
 hover:border-primary hover:bg-blue-950 hover:text-white transition`
-const MainCards = () =>{
+
+const Title = ({title="E.E.S.T N° 1", span=""}) => {
+   return(
+   <h2 className="self-center text-4xl font-bold sm:text-5xl text-white">
+              {title}
+      <span className="hidden sm:block text-4xl text-white">{span}</span>
+   </h2>
+)  
+}
+const MainCards = ({progLink="",quiLink="",elecLink=""}) =>{
 
     return(
-        <section class="pt-20 lg:pt-[120px] pb-10 lg:pb-20  mx-auto px-3">
+        <section className="pt-20 lg:pt-[120px] pb-10 lg:pb-20  mx-auto px-3">
 <div className="container ">
    <div className="flex flex-wrap mx-4">
       <div className="w-full md:w-1/2 xl:w-1/3 px-4 ">
@@ -24,7 +33,7 @@ const MainCards = () =>{
             <div className="transition-all p-8 sm:p-9 md:p-7 xl:p-9 text-center hover:bg-slate-300">
                <h3>
                   <a
-                     href="javascript:void(0)"
+                     href="#"
                      className="
                      font-semibold
                      text-dark text-xl
@@ -42,11 +51,10 @@ const MainCards = () =>{
                   </a>
                </h3>
                <p className="text-base text-body-color leading-relaxed mb-7">
-                  Lorem ipsum dolor sit amet pretium consectetur adipiscing
-                  elit. Lorem consectetur adipiscing elit.
+                  Técnico en Programación
                </p>
                <a
-                  href="#"
+                  href={progLink}
                   className={classBtnHover}
                   
                  
@@ -66,7 +74,7 @@ const MainCards = () =>{
             <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center hover:bg-slate-300 transition-all">
                <h3>
                   <a
-                     href="javascript:void(0)"
+                     href="#"
                      className="
                      font-semibold
                      text-dark text-xl
@@ -84,11 +92,10 @@ const MainCards = () =>{
                   </a>
                </h3>
                <p className="text-base text-body-color leading-relaxed mb-7">
-                  Lorem ipsum dolor sit amet pretium consectetur adipiscing
-                  elit. Lorem consectetur adipiscing elit.
+               Técnico en Química
                </p>
                <a
-                  href="javascript:void(0)"
+                  href={quiLink}
                   className={classBtnHover}
                   >
                Más información
@@ -106,7 +113,7 @@ const MainCards = () =>{
             <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center hover:bg-slate-300 transition-all">
                <h3>
                   <a
-                     href="javascript:void(0)"
+                     href="#"
                      className="
                      font-semibold
                      text-dark text-xl
@@ -124,11 +131,10 @@ const MainCards = () =>{
                   </a>
                </h3>
                <p className="text-base text-body-color leading-relaxed mb-7">
-                  Lorem ipsum dolor sit amet pretium consectetur adipiscing
-                  elit. Lorem consectetur adipiscing elit.
+               Técnico en Electromecánica
                </p>
                <a
-                  href="javascript:void(0)"
+                  href={elecLink}
                   className={classBtnHover}
                   >
                Más información
@@ -144,30 +150,33 @@ const MainCards = () =>{
 const LayoutMain = () => {
    return(
       <div>
-         <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
-         <div className="relative z-10 max-w-screen-xl px-4 pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
-         <div className="flex justify-end content-center gap-3 max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto">
-            <h2 className="self-center text-4xl font-bold sm:text-5xl text-white">
-               E.E.S.T N° 1
-               <span className="hidden sm:block text-4xl text-white">Brandsen</span>
-            </h2>
-            <div className="flex self-center">
+         <aside className="grid grid-cols-1 gap-4 mb-3  place-items-center sm:my-20 sm:grid-cols-2 p-4">
+         <div className="flex sm:justify-self-start sm:row-start-1 row-start-2">
+            <img className="w-40" src="./desarrollo-movil.png" alt="image1" />
+         </div>
+        
+         <div className="flex sm:justify-self-end row-span-1">
+            <Title span='Brandsen'/>
+         
+            <div className="flex justify-self-start">
                <img className="w-20 my-auto" src="./logo.png" alt="" />
             </div>
          </div>
-            
-         </div>
+        
+        
 
-         <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-            <img className="w-40" src="./desarrollo-movil.png" alt="image1" />
-         </div>
-         </aside>
+       
+       
 
-         <div className="grid grid-cols-2 place-items-center sm:mt-20">
+         <div className="grid grid-cols-1 gap-4 place-items-center sm:mt-20 ">
          <img className="sm:w-40 w-40" src="./soporte-tecnico.png" alt="image2" />
+         </div>
+         <div className="grid grid-cols-1 gap-4 place-items-center sm:mt-20 ">
          <img className="sm:w-40 w-40" src="./matraz.png" alt="image2" />
          </div>
-
+         
+         
+         </aside>
          <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium text-white" >Nuestras carreras</h1>
          </div>
    )
@@ -188,5 +197,6 @@ const MainFooter = () => {
 export {
     MainCards,
     LayoutMain,
-    MainFooter
+    MainFooter,
+    Title
 }
