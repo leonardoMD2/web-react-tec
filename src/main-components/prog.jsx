@@ -1,6 +1,5 @@
-import React from 'react'
-import './css/index.css'
-import {Title, MainFooter, NavMain} from "./main-components/usefull-components.jsx"
+import '../css/index.css'
+import {Title, MainFooter, NavMain} from "./usefull-components.jsx"
 
 
 const AppProg = ({mainText,urlImg}) => {

@@ -17,7 +17,7 @@ const Title = ({title="E.E.S.T N° 1", span=""}) => {
    </h2>
 )  
 }
-const MainCards = ({progLink="",quiLink="",elecLink=""}) =>{
+const MainCards = ({progLink="/programacion",quiLink="",elecLink=""}) =>{
 
     return(
         <section className="pt-20 lg:pt-[120px] pb-10 lg:pb-20  mx-auto px-3">
@@ -187,7 +187,7 @@ const MainFooter = () => {
       <footer className='grid grid-cols-2'>
          <p className='text-white text-start self-end'>Programación</p>
          <aside className='flex justify-self-end gap-3'>
-            <p className='text-white place-self-end'>Maded with:</p>
+            <p className='text-white place-self-end'>Made with:</p>
             <img src="/react.svg"  className='w-8 place-self-start'alt="" />
             <img src="/Tailwind.svg" className='w-8' alt="" />
          </aside>
@@ -204,11 +204,11 @@ const NavMain = ()=>{
                 <nav className="flex items-center justify-between flex-wrap  ">
                     <div id="main-nav" className="w-full flex-grow lg:flex items-center lg:w-auto  ">
                         <div className="text-sm lg:flex-grow mt-2 mx-2 animated jackinthebox ">
-                            <a href="index.html"
+                            <a href="/"
                                 className="block text-white lg:inline-block text-md font-bold  text-blue-500  sm:hover:border-indigo-400  hover:text-white mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                 INICIO
                             </a>
-                            <a href="/public/programacion.html"
+                            <a href="/programacion"
                                 className="block text-white lg:inline-block text-md font-bold   sm:hover:border-indigo-400  hover:text-blue-500 mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                 PROGRAMACIÓN
                             </a>
