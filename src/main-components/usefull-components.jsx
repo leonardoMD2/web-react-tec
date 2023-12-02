@@ -194,9 +194,45 @@ const MainFooter = () => {
       </footer>
    )
 }
+
+const NavMain = ()=>{
+   return(
+      <header>
+
+        <div className="py-2">
+            <div className="">
+                <nav className="flex items-center justify-between flex-wrap  ">
+                    <div id="main-nav" className="w-full flex-grow lg:flex items-center lg:w-auto  ">
+                        <div className="text-sm lg:flex-grow mt-2 mx-2 animated jackinthebox ">
+                            <a href="./index.html"
+                                className="block text-white lg:inline-block text-md font-bold  text-blue-500  sm:hover:border-indigo-400  hover:text-white mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
+                                INICIO
+                            </a>
+                            <a href="./programacion.html"
+                                className="block text-white lg:inline-block text-md font-bold   sm:hover:border-indigo-400  hover:text-blue-500 mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
+                                PROGRAMACIÓN
+                            </a>
+                            <a href="#home"
+                                className="block lg:inline-block text-white  text-md font-bold   sm:hover:border-indigo-400  hover:text-blue-500 mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
+                                QUÍMICA
+                            </a>
+                            <a href="#home"
+                                className="block lg:inline-block text-md text-white font-bold   sm:hover:border-indigo-400  hover:text-blue-500 mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
+                                ELECTROMECÁNICA
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+  
+</header>
+   )
+}
 export {
     MainCards,
     LayoutMain,
     MainFooter,
-    Title
+    Title,
+    NavMain
 }
