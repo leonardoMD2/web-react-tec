@@ -208,7 +208,7 @@ const NavMain = ()=>{
                                 className="block text-white lg:inline-block text-md font-bold  text-blue-500  sm:hover:border-indigo-400  hover:text-white mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                 INICIO
                             </a>
-                            <a href="./programacion.html"
+                            <a href="/programacion.html"
                                 className="block text-white lg:inline-block text-md font-bold   sm:hover:border-indigo-400  hover:text-blue-500 mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                 PROGRAMACIÓN
                             </a>
