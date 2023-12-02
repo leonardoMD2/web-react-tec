@@ -26,7 +26,7 @@ const MainCards = ({progLink="",quiLink="",elecLink=""}) =>{
       <div className="w-full md:w-1/2 xl:w-1/3 px-4 ">
          <div className="bg-slate-500 rounded-lg overflow-hidden mb-10">
             <img
-               src="./programacion.jpg"
+               src="/programacion.jpg"
                alt="image"
                className="w-full h-60"
                />
@@ -67,7 +67,7 @@ const MainCards = ({progLink="",quiLink="",elecLink=""}) =>{
       <div className="w-full md:w-1/2 xl:w-1/3 px-4">
          <div className="bg-slate-500 rounded-lg overflow-hidden mb-10">
             <img
-               src="./quimica.jpg"
+               src="/quimica.jpg"
                alt="image"
                className="w-full h-60"
                />
@@ -106,7 +106,7 @@ const MainCards = ({progLink="",quiLink="",elecLink=""}) =>{
       <div className="w-full md:w-1/2 xl:w-1/3 px-4">
          <div className="bg-slate-500 rounded-lg overflow-hidden mb-10 ">
             <img
-               src="./electro.jpg"
+               src="/electro.jpg"
                alt="image"
                className="w-full h-60"
                />
@@ -152,14 +152,14 @@ const LayoutMain = () => {
       <div>
          <aside className="grid grid-cols-1 gap-4 mb-3  place-items-center sm:my-20 sm:grid-cols-2 p-4">
          <div className="flex sm:justify-self-start sm:row-start-1 row-start-2">
-            <img className="w-40" src="./desarrollo-movil.png" alt="image1" />
+            <img className="w-40" src="/desarrollo-movil.png" alt="image1" />
          </div>
         
          <div className="flex sm:justify-self-end row-span-1">
             <Title span='Brandsen'/>
          
             <div className="flex justify-self-start">
-               <img className="w-20 my-auto" src="./logo.png" alt="" />
+               <img className="w-20 my-auto" src="/logo.png" alt="" />
             </div>
          </div>
         
@@ -169,10 +169,10 @@ const LayoutMain = () => {
        
 
          <div className="grid grid-cols-1 gap-4 place-items-center sm:mt-20 ">
-         <img className="sm:w-40 w-40" src="./soporte-tecnico.png" alt="image2" />
+         <img className="sm:w-40 w-40" src="/soporte-tecnico.png" alt="image2" />
          </div>
          <div className="grid grid-cols-1 gap-4 place-items-center sm:mt-20 ">
-         <img className="sm:w-40 w-40" src="./matraz.png" alt="image2" />
+         <img className="sm:w-40 w-40" src="/matraz.png" alt="image2" />
          </div>
          
          
@@ -188,8 +188,8 @@ const MainFooter = () => {
          <p className='text-white text-start self-end'>Programación</p>
          <aside className='flex justify-self-end gap-3'>
             <p className='text-white place-self-end'>Maded with:</p>
-            <img src="./react.svg"  className='w-8 place-self-start'alt="" />
-            <img src="./Tailwind.svg" className='w-8' alt="" />
+            <img src="/react.svg"  className='w-8 place-self-start'alt="" />
+            <img src="/Tailwind.svg" className='w-8' alt="" />
          </aside>
       </footer>
    )
@@ -208,7 +208,7 @@ const NavMain = ()=>{
                                 className="block text-white lg:inline-block text-md font-bold  text-blue-500  sm:hover:border-indigo-400  hover:text-white mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                 INICIO
                             </a>
-                            <a href="programacion.html"
+                            <a href="/public/programacion.html"
                                 className="block text-white lg:inline-block text-md font-bold   sm:hover:border-indigo-400  hover:text-blue-500 mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                 PROGRAMACIÓN
                             </a>
