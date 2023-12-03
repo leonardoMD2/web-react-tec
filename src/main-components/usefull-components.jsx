@@ -212,11 +212,11 @@ const NavMain = ()=>{
                                 className="block text-white lg:inline-block text-md font-bold   sm:hover:border-indigo-400  hover:text-blue-500 mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                 PROGRAMACIÓN
                             </Link>
-                            <Link to="/quimica"
+                            <Link to={"/quimica"}
                                 className="block lg:inline-block text-white  text-md font-bold   sm:hover:border-indigo-400  hover:text-blue-500 mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                 QUÍMICA
                               </Link>
-                            <Link to="/electro"
+                            <Link to={"/electro"}
                                 className="block lg:inline-block text-md text-white font-bold   sm:hover:border-indigo-400  hover:text-blue-500 mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                 ELECTROMECÁNICA
                               </Link>

@@ -57,9 +57,9 @@ const BlogCard = ({mainText="Enlace al diseño curricular de Técnico en program
     
             <div className="flex flex-col justify-between py-6 lg:mx-6">
                 <p href="#" className="text-xl font-semibold text-gray-800 dark:text-white ">
-                    {mainText}
-                    <p className='text-lg font-light text-gray-800 dark:text-white'>{secondaryText}</p>
+                    {mainText} 
                 </p>
+                <p className='text-lg font-light text-gray-800 dark:text-white'>{secondaryText}</p>
             </div>
         </div>
         )
