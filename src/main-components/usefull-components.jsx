@@ -95,12 +95,11 @@ const MainCards = ({progLink="/programacion",quiLink="",elecLink=""}) =>{
                <p className="text-base text-body-color leading-relaxed mb-7">
                Técnico en Química
                </p>
-               <a
-                  href={quiLink}
+               <Link to={"/quimica"}
                   className={classBtnHover}
                   >
                Más información
-               </a>
+               </Link>
             </div>
          </div>
       </div>
@@ -134,12 +133,11 @@ const MainCards = ({progLink="/programacion",quiLink="",elecLink=""}) =>{
                <p className="text-base text-body-color leading-relaxed mb-7">
                Técnico en Electromecánica
                </p>
-               <a
-                  href={elecLink}
+               <Link to={"/electro"}
                   className={classBtnHover}
                   >
                Más información
-               </a>
+               </Link>
             </div>
          </div>
       </div>
@@ -214,14 +212,14 @@ const NavMain = ()=>{
                                 className="block text-white lg:inline-block text-md font-bold   sm:hover:border-indigo-400  hover:text-blue-500 mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                 PROGRAMACIÓN
                             </Link>
-                            <a href="#home"
+                            <Link to="/quimica"
                                 className="block lg:inline-block text-white  text-md font-bold   sm:hover:border-indigo-400  hover:text-blue-500 mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                 QUÍMICA
-                            </a>
-                            <a href="#home"
+                              </Link>
+                            <Link to="/electro"
                                 className="block lg:inline-block text-md text-white font-bold   sm:hover:border-indigo-400  hover:text-blue-500 mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                 ELECTROMECÁNICA
-                            </a>
+                              </Link>
                         </div>
                     </div>
                 </nav>
