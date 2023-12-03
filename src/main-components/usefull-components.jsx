@@ -17,6 +17,11 @@ const Title = ({title="E.E.S.T N° 1", span=""}) => {
    </h2>
 )  
 }
+const TitleSecondary = ({title}) =>{
+   return (
+      <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium text-white" >{title}</h1>
+   )
+}
 const MainCards = ({progLink="/programacion",quiLink="",elecLink=""}) =>{
 
     return(
@@ -173,7 +178,7 @@ const LayoutMain = () => {
          
          
          </aside>
-         <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium text-white" >Nuestras carreras</h1>
+         <TitleSecondary title={"Nuestras carreras"}/>
          </div>
    )
 }
@@ -226,10 +231,48 @@ const NavMain = ()=>{
 </header>
    )
 }
+
+const CardLittle = ({division="Documentos", labNombre1="Laboratorio ejemplo",labNombre2="Laboratorio ejemplo",labNombre3="Laboratorio ejemplo",labNombre4="Laboratorio ejemplo"}) => {
+   return(
+      <article>
+      <div className="flex w-96 flex-col rounded-xl bg-gray-300 bg-clip-border text-gray-700 shadow-md">
+         <div className="p-6 w-100">
+            <h5 className="mb-2 block font-sans text-xl font-semibold text-center leading-snug tracking-normal text-blue-gray-900 antialiased">
+               {division}
+            </h5>
+            <p className="block font-sans text-base font-medium leading-relaxed text-inherit antialiased">
+               {labNombre1}
+            </p>
+            <p className="block font-sans text-base font-medium leading-relaxed text-inherit antialiased">
+               {labNombre2}
+            </p>
+            <p className="block font-sans text-base font-medium leading-relaxed text-inherit antialiased">
+               {labNombre3}
+            </p>
+            <p className="block font-sans text-base font-medium leading-relaxed text-inherit antialiased">
+               {labNombre4}
+            </p>
+         </div>
+         </div>
+      </article>
+   )
+}
+const ButtonDownloadDC = () => {
+   return(
+      <button className={"h-12 w-48 overflow-hidden rounded-2xl text-base text-body-color font-medium bg-slate-600 hover:border-primary hover:bg-blue-950 hover:text-white transition"}>
+         Descargar
+         <div className="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
+      </button>
+   )
+} 
 export {
     MainCards,
     LayoutMain,
     MainFooter,
     Title,
-    NavMain
+    NavMain,
+    CardLittle,
+    TitleSecondary,
+    ButtonDownloadDC,
+    classBtnHover
 }
