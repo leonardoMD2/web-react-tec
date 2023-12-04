@@ -1,0 +1,26 @@
+{  
+    "primera":
+    {
+    "urlImg1": "/matraz.png",
+    "mainText1": "Primera noticia",
+    "secondaryText1": "Ejemplo desde objt"
+  },
+  "segunda":
+  {
+  "urlImg1": "/matraz.png",
+  "mainText1": "Segunda noticia",
+  "secondaryText1": "Ejemplo desde objt"
+},
+    "tercera":
+{
+"urlImg1": "/matraz.png",
+"mainText1": "Tercera noticia",
+"secondaryText1": "Ejemplo desde objt"
+},
+    "cuarta":
+{
+"urlImg1": "/matraz.png",
+"mainText1": "Cuarta noticia",
+"secondaryText1": "Ejemplo desde objt"
+}
+}
