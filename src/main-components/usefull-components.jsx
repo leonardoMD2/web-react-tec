@@ -233,8 +233,8 @@ const NavMain = ()=>{
 const CardLittle = ({division="Documentos", labNombre1="Laboratorio ejemplo",labNombre2="Laboratorio ejemplo",labNombre3="Laboratorio ejemplo",labNombre4="Laboratorio ejemplo"}) => {
    return(
       <article>
-      <div className="flex w-96 flex-col rounded-xl bg-gray-300 bg-clip-border text-gray-700 shadow-md">
-         <div className="p-6 w-100">
+      <div className="flex w-72 flex-col rounded-xl bg-gray-300 bg-clip-border text-gray-700 shadow-md">
+         <div className="p-3 w-52 mx-auto">
             <h5 className="mb-2 block font-sans text-xl font-semibold text-center leading-snug tracking-normal text-blue-gray-900 antialiased">
                {division}
             </h5>
@@ -263,6 +263,12 @@ const ButtonDownloadDC = () => {
       </button>
    )
 } 
+
+const News = ({title, text}) => {
+   return(
+      <h1 className='text-white text-xl text-center'>News here </h1>
+   )
+}
 export {
     MainCards,
     LayoutMain,
@@ -272,5 +278,6 @@ export {
     CardLittle,
     TitleSecondary,
     ButtonDownloadDC,
-    classBtnHover
+    classBtnHover,
+    News
 }

@@ -2,11 +2,7 @@ import '../css/index.css'
 import {Title, MainFooter, NavMain, TitleSecondary, CardLittle, ButtonDownloadDC} from "./usefull-components.jsx"
 import jsonDataMaterias from './datos-materias.json'
 import jsonDataProyectos from './datos-proyectos.json'
-const data = [{
-    urlImg1: "/logo.png",
-    mainText1: "ejemplo desde objeto",
-    secondaryText1: "Ejemplo desde objt"
-}]
+
 
 console.log(jsonDataMaterias.dataProgramMat[0].materia1)
 
@@ -19,10 +15,10 @@ const AppProg = ({mainText,urlImg}) => {
                     <Title title={"Técnico en Programación"}/>
                 </header>
                 
-            <ContainerGridResponsive urlImg1={data[0].urlImg1} mainText1={data[0].mainText1} secondaryText1={data[0].secondaryText1}
-                urlImg2={data[0].urlImg1} mainText2={data[0].mainText1} secondaryText2={data[0].secondaryText1}
-                urlImg3={data[0].urlImg1} mainText3={data[0].mainText1} secondaryText3={data[0].secondaryText1}
-                urlImg4={data[0].urlImg1} mainText4={data[0].mainText1} secondaryText4={data[0].secondaryText1}
+            <ContainerGridResponsive urlImg1={jsonDataProyectos.dataProgram[0].urlImg1} mainText1={jsonDataProyectos.dataProgram[0].mainText1} secondaryText1={jsonDataProyectos.dataProgram[0].secondaryText1}
+                urlImg2={jsonDataProyectos.dataProgram[1].urlImg1} mainText2={jsonDataProyectos.dataProgram[1].mainText1} secondaryText2={jsonDataProyectos.dataProgram[1].secondaryText1}
+                urlImg3={jsonDataProyectos.dataProgram[2].urlImg1} mainText3={jsonDataProyectos.dataProgram[2].mainText1} secondaryText3={jsonDataProyectos.dataProgram[2].secondaryText1}
+                urlImg4={jsonDataProyectos.dataProgram[3].urlImg1} mainText4={jsonDataProyectos.dataProgram[3].mainText1} secondaryText4={jsonDataProyectos.dataProgram[3].secondaryText1}
             />
             <TitleSecondary title='Laboratorios específicos'/>
            

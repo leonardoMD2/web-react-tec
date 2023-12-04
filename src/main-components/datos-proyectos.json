@@ -45,22 +45,22 @@
     ],
     "dataProgram": [
       {
-        "urlImg1": "/matraz.png",
+        "urlImg1": "/react.svg",
         "mainText1": "ejemplo desde objeto",
         "secondaryText1": "Ejemplo desde objt"
       },
       {
-        "urlImg1": "/matraz.png",
+        "urlImg1": "/react.svg",
+        "mainText1": "ejemplo desde JSON",
+        "secondaryText1": "Ejemplo desde objt"
+      },
+      {
+        "urlImg1": "/react.svg",
         "mainText1": "ejemplo desde objeto",
         "secondaryText1": "Ejemplo desde objt"
       },
       {
-        "urlImg1": "/matraz.png",
-        "mainText1": "ejemplo desde objeto",
-        "secondaryText1": "Ejemplo desde objt"
-      },
-      {
-        "urlImg1": "/matraz.png",
+        "urlImg1": "/react.svg",
         "mainText1": "ejemplo desde objeto",
         "secondaryText1": "Ejemplo desde objt"
       }
