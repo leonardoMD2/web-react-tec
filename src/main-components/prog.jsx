@@ -1,11 +1,15 @@
 import '../css/index.css'
 import {Title, MainFooter, NavMain, TitleSecondary, CardLittle, ButtonDownloadDC} from "./usefull-components.jsx"
-
+import jsonDataMaterias from './datos-materias.json'
+import jsonDataProyectos from './datos-proyectos.json'
 const data = [{
     urlImg1: "/logo.png",
     mainText1: "ejemplo desde objeto",
     secondaryText1: "Ejemplo desde objt"
 }]
+
+console.log(jsonDataMaterias.dataProgramMat[0].materia1)
+
 
 const AppProg = ({mainText,urlImg}) => {
     return(
@@ -23,10 +27,10 @@ const AppProg = ({mainText,urlImg}) => {
             <TitleSecondary title='Laboratorios específicos'/>
            
                 <section className='grid sm:grid-cols-2 xl:grid-cols-4 place-items-center py-6 grid-cols-1 gap-8'>
-                    <CardLittle division='4to Año' labNombre1='Programación' labNombre2='Sistemas Operativos' labNombre3='Hardware' labNombre4='Aplicaciones'/>
-                    <CardLittle division='5to Año' labNombre1='Programación' labNombre2='Diseño Web' labNombre3='Bases de Datos' labNombre4='Redes'/>
-                    <CardLittle division='6to Año' labNombre1='Programación' labNombre2='Procesos Industriales' labNombre3='Aplicaciones Webs Estáticas' labNombre4='Aplicaciones Webs Dinámicas'/>
-                    <CardLittle division='7mo Año' labNombre1='Sistemas Computacionales' labNombre2='Desarrollo para Móviles' labNombre3='Implementación de Sitios Webs Dinámicos' labNombre4=''/>
+                    <CardLittle division='4to Año' labNombre1={jsonDataMaterias.dataProgramMat[0].materia1} labNombre2={jsonDataMaterias.dataProgramMat[0].materia2} labNombre3={jsonDataMaterias.dataProgramMat[0].materia3} labNombre4={jsonDataMaterias.dataProgramMat[0].materia4}/>
+                    <CardLittle division='5to Año' labNombre1={jsonDataMaterias.dataProgramMat[1].materia1} labNombre2={jsonDataMaterias.dataProgramMat[1].materia2} labNombre3={jsonDataMaterias.dataProgramMat[1].materia3} labNombre4={jsonDataMaterias.dataProgramMat[1].materia4}/>
+                    <CardLittle division='6to Año' labNombre1={jsonDataMaterias.dataProgramMat[2].materia1} labNombre2={jsonDataMaterias.dataProgramMat[2].materia2} labNombre3={jsonDataMaterias.dataProgramMat[2].materia3} labNombre4={jsonDataMaterias.dataProgramMat[2].materia4}/>
+                    <CardLittle division='7mo Año' labNombre1={jsonDataMaterias.dataProgramMat[3].materia1} labNombre2={jsonDataMaterias.dataProgramMat[3].materia2} labNombre3={jsonDataMaterias.dataProgramMat[3].materia3} labNombre4={jsonDataMaterias.dataProgramMat[3].materia4}/>
                 </section>
         
         <MainFooter/>
@@ -72,7 +76,7 @@ const ContainerGridResponsive = ({urlImg1="",urlImg2="",urlImg3="",urlImg4="", m
             <BlogCard mainText={mainText1} secondaryText={secondaryText1} urlImg={urlImg1}/>
             <BlogCard mainText={mainText2} secondaryText={secondaryText2} urlImg={urlImg2}/>
             <BlogCard mainText={mainText3} secondaryText={secondaryText3} urlImg={urlImg3}/>
-            <BlogCard mainText={mainText4} secondaryText={secondaryText4} urlImg={urlImg4}/>
+            <BlogCard mainText={mainText4} secondaryText={secondaryText4} urlImg={urlImg4} btn={true}/>
         </section>
     )
 }

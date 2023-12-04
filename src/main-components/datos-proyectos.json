@@ -1,0 +1,69 @@
+{
+    "dataQuimica": [
+      {
+        "urlImg1": "/matraz.png",
+        "mainText1": "ejemplo desde aaao",
+        "secondaryText1": "Ejemplo desde objt"
+      },
+      {
+        "urlImg1": "/quimica.jpg",
+        "mainText1": "ejemplo desde objeto",
+        "secondaryText1": "Ejemplo desde objt"
+      },
+      {
+        "urlImg1": "/quimica.jpg",
+        "mainText1": "ejemplo desde objeto",
+        "secondaryText1": "Ejemplo desde objt"
+      },
+      {
+        "urlImg1": "/matraz.png",
+        "mainText1": "ejemplo desde objeto",
+        "secondaryText1": "Ejemplo desde objt"
+      }
+    ],
+    "dataElectro": [
+      {
+        "urlImg1": "/matraz.png",
+        "mainText1": "ejemplo desde objeto",
+        "secondaryText1": "Ejemplo desde objt"
+      },
+      {
+        "urlImg1": "/matraz.png",
+        "mainText1": "ejemplo desde objeto",
+        "secondaryText1": "Ejemplo desde objt"
+      },
+      {
+        "urlImg1": "/matraz.png",
+        "mainText1": "ejemplo desde objeto",
+        "secondaryText1": "Ejemplo desde objt"
+      },
+      {
+        "urlImg1": "/matraz.png",
+        "mainText1": "ejemplo desde objeto",
+        "secondaryText1": "Ejemplo desde objt"
+      }
+    ],
+    "dataProgram": [
+      {
+        "urlImg1": "/matraz.png",
+        "mainText1": "ejemplo desde objeto",
+        "secondaryText1": "Ejemplo desde objt"
+      },
+      {
+        "urlImg1": "/matraz.png",
+        "mainText1": "ejemplo desde objeto",
+        "secondaryText1": "Ejemplo desde objt"
+      },
+      {
+        "urlImg1": "/matraz.png",
+        "mainText1": "ejemplo desde objeto",
+        "secondaryText1": "Ejemplo desde objt"
+      },
+      {
+        "urlImg1": "/matraz.png",
+        "mainText1": "ejemplo desde objeto",
+        "secondaryText1": "Ejemplo desde objt"
+      }
+    ]
+  }
+  

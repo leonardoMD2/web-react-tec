@@ -1,0 +1,82 @@
+{
+    "dataQuimicaMat": [
+        {
+            "materia1":"Programacion",
+            "materia2":"Sistemas Operativos",
+            "materia3":"Hardware",
+            "materia4":"Aplicaciones"
+          },
+          {
+            "materia1":"Programacion",
+            "materia2":"Diseño Web",
+            "materia3":"Bases de Datos",
+            "materia4":"Redes"
+          },
+          {
+            "materia1":"Programacion",
+            "materia2":"Aplicaciones Webs Estáticas",
+            "materia3":"Procesos Industriales",
+            "materia4":"Aplicaciones Webs Dinámicas"
+          },
+          {
+            "materia1":"Sistemas Computacionales",
+            "materia2":"Desarrollo para Móviles",
+            "materia3":"Implementación de Sitios Webs Dinámico",
+            "materia4":""
+          }
+    ],
+    "dataElectroMat": [
+        {
+            "materia1":"Programacion",
+            "materia2":"Sistemas Operativos",
+            "materia3":"Hardware",
+            "materia4":"Aplicaciones"
+          },
+          {
+            "materia1":"Programacion",
+            "materia2":"Diseño Web",
+            "materia3":"Bases de Datos",
+            "materia4":"Redes"
+          },
+          {
+            "materia1":"Programacion",
+            "materia2":"Aplicaciones Webs Estáticas",
+            "materia3":"Procesos Industriales",
+            "materia4":"Aplicaciones Webs Dinámicas"
+          },
+          {
+            "materia1":"Sistemas Computacionales",
+            "materia2":"Desarrollo para Móviles",
+            "materia3":"Implementación de Sitios Webs Dinámico",
+            "materia4":""
+          }
+      
+    ],
+    "dataProgramMat": [
+      {
+        "materia1":"Programacion",
+        "materia2":"Sistemas Operativos",
+        "materia3":"Hardware",
+        "materia4":"Aplicaciones"
+      },
+      {
+        "materia1":"Programacion",
+        "materia2":"Diseño Web",
+        "materia3":"Bases de Datos",
+        "materia4":"Redes"
+      },
+      {
+        "materia1":"Programacion",
+        "materia2":"Aplicaciones Webs Estáticas",
+        "materia3":"Procesos Industriales",
+        "materia4":"Aplicaciones Webs Dinámicas"
+      },
+      {
+        "materia1":"Sistemas Computacionales",
+        "materia2":"Desarrollo para Móviles",
+        "materia3":"Implementación de Sitios Webs Dinámico",
+        "materia4":""
+      }
+    ]
+  }
+  
