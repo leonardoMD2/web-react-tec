@@ -6,7 +6,7 @@ import  dataQuimicaMateria from './datos-materias.json'
 
 const AppQuim = () => {
     return(
-        <main className='bg-slate-950 xl:h-screen sm:h-full grid auto-rows-min container-lg'>
+        <main className='bg-slate-950 xl:h-screen sm:h-full md:h-screen h-screen grid auto-rows-min container-lg'>
                 <NavMain/>
                 <header className='flex justify-center'>
                     <Title title={"Técnico en Química"}/>

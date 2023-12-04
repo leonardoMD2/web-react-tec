@@ -9,7 +9,7 @@ console.log(jsonDataMaterias.dataProgramMat[0].materia1)
 
 const AppProg = ({mainText,urlImg}) => {
     return(
-        <main className='bg-slate-950 xl:h-screen sm:h-full grid auto-rows-auto container-lg'>
+        <main className='bg-slate-950 xl:h-screen sm:h-full md:h-screen grid auto-rows-auto container-lg'>
                 <NavMain/>
                 <header className='flex justify-center'>
                     <Title title={"Técnico en Programación"}/>
