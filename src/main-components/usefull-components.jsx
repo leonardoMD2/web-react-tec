@@ -13,7 +13,7 @@ hover:border-primary hover:bg-blue-950 hover:text-white transition`
 
 const Title = ({title="E.E.S.T N° 1", span=""}) => {
    return(
-   <h2 className="self-center text-4xl font-bold sm:text-5xl text-white">
+   <h2 className="self-center text-4xl font-bold sm:text-5xl text-white mt-16">
               {title}
       <span className="hidden sm:block text-4xl text-white">{span}</span>
    </h2>
@@ -150,35 +150,26 @@ const MainCards = ({progLink="/programacion",quiLink="",elecLink=""}) =>{
 }
 const LayoutMain = () => {
    return(
-      <div>
-         <aside className="grid grid-cols-1 gap-4 mb-3  place-items-center sm:my-20 sm:grid-cols-2 p-4">
-         <div className="flex sm:justify-self-start sm:row-start-1 row-start-2">
-            <img className="w-40" src="/desarrollo-movil.png" alt="image1" />
-         </div>
-        
-         <div className="flex sm:justify-self-end row-span-1">
+      <div className='h-screen grid grid-rows-3 2xl:mt-0 sm:mt-0 mt-24'>
+         <aside className="grid grid-cols-1 mb-3 sm:mt-20 2 p-4 h-5/6">
+         <div className="flex justify-center row-span-1 self-center xl:mt-16">
             <Title span='Brandsen'/>
          
-            <div className="flex justify-self-start">
+            <div className="flex justify-start">
                <img className="w-20 my-auto" src="/logo.png" alt="" />
             </div>
          </div>
         
-        
-
-       
-       
-
-         <div className="grid grid-cols-1 gap-4 place-items-center sm:mt-20 ">
-         <img className="sm:w-40 w-40" src="/soporte-tecnico.png" alt="image2" />
-         </div>
-         <div className="grid grid-cols-1 gap-4 place-items-center sm:mt-20 ">
-         <img className="sm:w-40 w-40" src="/matraz.png" alt="image2" />
-         </div>
-         
+      
          
          </aside>
-         <TitleSecondary title={"Nuestras carreras"}/>
+         <div className="flex justify-center mt-5">
+               <img className="w-90 h-90" src="/react.svg" alt="" />
+            </div>
+         <div className='grid self-end'>
+            <TitleSecondary title={"Nuestras carreras"}/>
+         </div>
+        
          </div>
    )
 }
@@ -198,7 +189,7 @@ const MainFooter = () => {
 
 const NavMain = ()=>{
    return(
-      <header>
+      <header className='fixed opacity-90 w-full bg-blue-900'>
 
         <div className="py-2">
             <div className="">

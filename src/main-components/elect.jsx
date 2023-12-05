@@ -5,7 +5,7 @@ import  dataElectroMateria from './datos-materias.json'
 
 const AppElec = () => {
     return(
-        <main className='bg-slate-950 min-h-full 2xl:h-screen xl:h-full sm:h-full md:h-full grid auto-rows-auto container-lg'>
+        <main className='bg-slate-950 grid auto-rows-auto container-lg'>
                 <NavMain/>
                 <header className='flex justify-center'>
                     <Title title={"Técnico en Electromecánica"}/>
