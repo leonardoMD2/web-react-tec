@@ -3,24 +3,24 @@
     {
     "urlImg1": "/matraz.png",
     "mainText1": "Primera noticia",
-    "secondaryText1": "Ejemplo desde objt"
+    "secondaryText1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat assumenda suscipit similique ipsam facilis quasi natus, reprehenderit blanditiis asperiores animi corrupti nemo ratione ullam! Dolores atque reprehenderit dolorem nesciunt."
   },
   "segunda":
   {
-  "urlImg1": "/matraz.png",
-  "mainText1": "Segunda noticia",
-  "secondaryText1": "Ejemplo desde objt"
+  "urlImg1": "/soporte-tecnico.png",
+  "mainText1": "Noticia de la semana",
+  "secondaryText1": "Tailwind se puede utilizar porque es open source"
 },
     "tercera":
 {
 "urlImg1": "/matraz.png",
 "mainText1": "Tercera noticia",
-"secondaryText1": "Ejemplo desde objt"
+"secondaryText1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat assumenda suscipit similique ipsam facilis quasi natus, reprehenderit blanditiis asperiores animi corrupti nemo ratione ullam! Dolores atque reprehenderit dolorem nesciunt."
 },
     "cuarta":
 {
 "urlImg1": "/matraz.png",
 "mainText1": "Cuarta noticia",
-"secondaryText1": "Ejemplo desde objt"
+"secondaryText1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat assumenda suscipit similique ipsam facilis quasi natus, reprehenderit blanditiis asperiores animi corrupti nemo ratione ullam! Dolores atque reprehenderit dolorem nesciunt."
 }
 }

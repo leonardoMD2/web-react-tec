@@ -240,13 +240,13 @@ const CardLittle = ({division="Documentos", labNombre1="Laboratorio ejemplo",lab
             <h5 className="mb-2 block font-sans text-xl font-semibold text-center leading-snug tracking-normal text-blue-gray-900 antialiased">
                {division}
             </h5>
-            <p className="block font-sans text-base font-medium leading-relaxed text-inherit antialiased">
+            <p className="border-b-2 border-neutral-950 border-b-neutral-500  block font-sans text-base font-medium leading-relaxed text-inherit antialiased">
                {labNombre1}
             </p>
-            <p className="block font-sans text-base font-medium leading-relaxed text-inherit antialiased">
+            <p className="border-b-2 border-neutral-950 border-b-neutral-500 block font-sans text-base font-medium leading-relaxed text-inherit antialiased">
                {labNombre2}
             </p>
-            <p className="block font-sans text-base font-medium leading-relaxed text-inherit antialiased">
+            <p className="border-b-2 border-neutral-950 border-b-neutral-500 block font-sans text-base font-medium leading-relaxed text-inherit antialiased">
                {labNombre3}
             </p>
             <p className="block font-sans text-base font-medium leading-relaxed text-inherit antialiased">
