@@ -152,7 +152,7 @@ const LayoutMain = () => {
    return(
       <div className='h-screen grid grid-rows-3 2xl:mt-0 sm:mt-0 mt-24'>
          <aside className="grid grid-cols-1 mb-3 sm:mt-20 2 p-4 h-5/6">
-         <div className="flex justify-center row-span-1 self-center xl:mt-16">
+         <div className="flex justify-center row-span-1 self-center">
             <Title span='Brandsen'/>
          
             <div className="flex justify-start">
